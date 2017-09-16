@@ -10,7 +10,7 @@ Stable tag: 4.8.1
 License: GPLv3 
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-This plugin hide update popup text into administration part of WordPress 
+Send message to email with ajax form
 
 == Description ==
 

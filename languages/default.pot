@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ajax message v0.0.1\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2017-09-16 17:03+0200\n"
+"POT-Creation-Date: 2017-09-16 17:10+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Your Name <you@example.com>\n"
 "Language-Team: keksus.com <alexbalance@gmail.com>\n"
@@ -49,7 +49,7 @@ msgstr ""
 msgid "Wrong captcha code"
 msgstr ""
 
-#: ajax-message.php:274 ajax-message.php:451
+#: ajax-message.php:274 ajax-message.php:455
 msgid "Ajax Message"
 msgstr ""
 
@@ -153,87 +153,87 @@ msgstr ""
 msgid "This plugin is licensed under the"
 msgstr ""
 
-#: ajax-message.php:362
+#: ajax-message.php:364
 msgid ""
 "This means you can use it for anything you like as long as it remains GPL v3."
 msgstr ""
 
-#: ajax-message.php:364
+#: ajax-message.php:366
 msgid "Links:"
 msgstr ""
 
-#: ajax-message.php:365
+#: ajax-message.php:367
 msgid "This plugin was created by"
 msgstr ""
 
-#: ajax-message.php:366
+#: ajax-message.php:370
 msgid ""
 "A back-link to our website is very much appreciated or you can follow us via "
 "our social media!"
 msgstr ""
 
-#: ajax-message.php:374
+#: ajax-message.php:378
 msgid "Donation:"
 msgstr ""
 
-#: ajax-message.php:375
+#: ajax-message.php:379
 msgid ""
 "If you would like this plugin, you can donate any amount for other plugins "
 "development."
 msgstr ""
 
-#: ajax-message.php:377
+#: ajax-message.php:381
 msgid "Donate"
 msgstr ""
 
-#: ajax-message.php:387
+#: ajax-message.php:391
 msgid "Save Changes"
 msgstr ""
 
-#: ajax-message.php:400
+#: ajax-message.php:404
 msgid "Empty email field!"
 msgstr ""
 
-#: ajax-message.php:403
+#: ajax-message.php:407
 msgid "Not valid email!"
 msgstr ""
 
-#: ajax-message.php:406
+#: ajax-message.php:410
 msgid "Empty From field!"
 msgstr ""
 
-#: ajax-message.php:409
+#: ajax-message.php:413
 msgid "Empty Subject field!"
 msgstr ""
 
-#: ajax-message.php:412
+#: ajax-message.php:416
 msgid "Empty Submit button field!"
 msgstr ""
 
-#: ajax-message.php:415
+#: ajax-message.php:419
 msgid "Empty Success message field!"
 msgstr ""
 
-#: ajax-message.php:418
+#: ajax-message.php:422
 msgid "Empty Error message field!"
 msgstr ""
 
-#: ajax-message.php:422
+#: ajax-message.php:426
 msgid "Settings Saved"
 msgstr ""
 
-#: ajax-message.php:449
+#: ajax-message.php:453
 msgid "Shortcode or HTML or Plain Text."
 msgstr ""
 
-#: ajax-message.php:486
+#: ajax-message.php:490
 msgid "Title:"
 msgstr ""
 
-#: ajax-message.php:489
+#: ajax-message.php:493
 msgid "Content:"
 msgstr ""
 
-#: ajax-message.php:492
+#: ajax-message.php:496
 msgid "Automatically add paragraphs"
 msgstr ""
