@@ -1,0 +1,170 @@
+/*
+Author:       Keksus.com 
+Author URI:   http://keksus.com
+License: GNU  GPL v2.0
+
+Copyright 2017-2018 Keksus.com (email : alexbalance@gmail.com)
+*/
+* {
+    border: medium none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+/*-------------------------------------------------------*/
+/*  = Columns
+/*-------------------------------------------------------*/
+.q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10, .q11, .q12{
+    float: left;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.q1{
+    width: 8.3333%;
+}
+.q2{
+    width: 16.6666%;
+}
+.q3{
+    width: 25%;
+}
+.q4{
+    width: 33.3333%;
+}
+.q5{
+    width: 41.6666%;
+}
+.q6{
+    width: 50%;
+}
+.q7{
+    width: 58.3333%;
+}
+.q8{
+    width: 66.6666%;
+}
+.q9{
+    width: 75%;
+}
+.q10{
+    width: 83.3333%;
+}
+.q11{
+    width: 91.6666%;
+}
+.q12{
+    width: 100%;
+}
+.ajax-form{
+    display: block;
+    width: 100%;
+}
+.ajax-form input,
+.ajax-form textarea{
+    width: 100%;
+
+}
+.ajax-form .captcha{
+    margin-bottom: 0;
+}
+#captcha{
+    width: 60px;
+    margin-top: 10px;
+}
+/*-------------------------------------------------------*/
+/*  = Helper styles 
+/*-------------------------------------------------------*/
+
+.clear:before,
+.clear:after{
+    content: " ";
+    display: table;
+}
+.clear:after {
+    clear: both;
+}
+/*-------------------------------------------------------*/
+/*  = Buttons 
+/*-------------------------------------------------------*/
+.ajax-form{
+    display: block;
+ 
+}
+.ajax-form input,
+.ajax-form textarea{
+    /*padding: 0 10px;*/
+
+}
+.message-btn{
+    margin-top: 6px;
+}
+.message-btn div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.message-btn input[type="submit"]{
+    cursor: pointer;
+    border: none;
+    height: auto;
+    padding: 10px 7px;
+}
+#load{
+   display:none;
+
+}
+#loading { 
+    display: inline-block;
+    vertical-align: middle;
+    background:url(../images/loading.gif) 0 0 no-repeat;  
+    text-indent: -9999px;
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    margin-left: 7px;
+}
+#response{
+    display: block;
+    margin-top: 10px;
+    /*width: calc(100% - 20px);*/
+}
+.alert-success, .alert-error{
+    display: table;
+    overflow: hidden;
+    position: relative;
+    border:1px solid #ccc;
+    padding: 5px 15px;
+    width: calc(100% - 20px);
+}
+.alert-success{
+    background: #fff;
+    border-left: 4px solid #7AD03A;
+}
+.alert-error{
+    background: #EFDADA;
+    border-left: 4px solid #DD3D36;
+}
+.alert-success span,
+.alert-error span{
+     display: table-cell;
+    vertical-align: middle;
+}
+.alert-close{
+    float: right;
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+
+}
+.alert-close:hover{
+    color: #000;
+}
+.closed{
+    display: none;
+}
+.alert-error{
+    background: #EFDADA;
+}
+.show{
+    display: block;
+}
