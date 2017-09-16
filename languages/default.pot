@@ -1,0 +1,239 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ajax message v0.0.1\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2017-09-16 17:03+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: keksus.com <alexbalance@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ajax-message.php:51
+msgid ""
+"Thank you for installing this plugin! Plugin settings are available on the "
+"page"
+msgstr ""
+
+#: ajax-message.php:113
+msgid "Thank you for installing this plugin! Created by"
+msgstr ""
+
+#: ajax-message.php:144
+msgid "Enter code:"
+msgstr ""
+
+#: ajax-message.php:185
+msgid "Name required"
+msgstr ""
+
+#: ajax-message.php:189
+msgid "Message required"
+msgstr ""
+
+#: ajax-message.php:197
+msgid "Wrong captcha code"
+msgstr ""
+
+#: ajax-message.php:274 ajax-message.php:451
+msgid "Ajax Message"
+msgstr ""
+
+#: ajax-message.php:280
+msgid "Settings"
+msgstr ""
+
+#: ajax-message.php:281
+msgid "Readme"
+msgstr ""
+
+#: ajax-message.php:290
+msgid "Form field text"
+msgstr ""
+
+#: ajax-message.php:292
+msgid "Name field:"
+msgstr ""
+
+#: ajax-message.php:295
+msgid "Message field:"
+msgstr ""
+
+#: ajax-message.php:298
+msgid "Submit button (*):"
+msgstr ""
+
+#: ajax-message.php:301
+msgid "Form styles"
+msgstr ""
+
+#: ajax-message.php:303
+msgid "Form width (pixels or percents):"
+msgstr ""
+
+#: ajax-message.php:306
+msgid "Submit button color:"
+msgstr ""
+
+#: ajax-message.php:309
+msgid "Submit button text color:"
+msgstr ""
+
+#: ajax-message.php:312
+msgid "Form reply messages"
+msgstr ""
+
+#: ajax-message.php:314
+msgid "Success message (*):"
+msgstr ""
+
+#: ajax-message.php:316
+msgid "Error message (*):"
+msgstr ""
+
+#: ajax-message.php:324
+msgid "Send mail"
+msgstr ""
+
+#: ajax-message.php:326
+msgid "Destination Email address (*): "
+msgstr ""
+
+#: ajax-message.php:329
+msgid "From (*): "
+msgstr ""
+
+#: ajax-message.php:332
+msgid "Subject (*): "
+msgstr ""
+
+#: ajax-message.php:335
+msgid "Captcha"
+msgstr ""
+
+#: ajax-message.php:336
+msgid "Captcha number of digits:"
+msgstr ""
+
+#: ajax-message.php:338
+msgid "Show/hide captcha:"
+msgstr ""
+
+#: ajax-message.php:341
+msgid "Custom CSS"
+msgstr ""
+
+#: ajax-message.php:342
+msgid "CSS code: "
+msgstr ""
+
+#: ajax-message.php:353
+msgid "How to:"
+msgstr ""
+
+#: ajax-message.php:361
+msgid "License:"
+msgstr ""
+
+#: ajax-message.php:362
+msgid "This plugin is licensed under the"
+msgstr ""
+
+#: ajax-message.php:362
+msgid ""
+"This means you can use it for anything you like as long as it remains GPL v3."
+msgstr ""
+
+#: ajax-message.php:364
+msgid "Links:"
+msgstr ""
+
+#: ajax-message.php:365
+msgid "This plugin was created by"
+msgstr ""
+
+#: ajax-message.php:366
+msgid ""
+"A back-link to our website is very much appreciated or you can follow us via "
+"our social media!"
+msgstr ""
+
+#: ajax-message.php:374
+msgid "Donation:"
+msgstr ""
+
+#: ajax-message.php:375
+msgid ""
+"If you would like this plugin, you can donate any amount for other plugins "
+"development."
+msgstr ""
+
+#: ajax-message.php:377
+msgid "Donate"
+msgstr ""
+
+#: ajax-message.php:387
+msgid "Save Changes"
+msgstr ""
+
+#: ajax-message.php:400
+msgid "Empty email field!"
+msgstr ""
+
+#: ajax-message.php:403
+msgid "Not valid email!"
+msgstr ""
+
+#: ajax-message.php:406
+msgid "Empty From field!"
+msgstr ""
+
+#: ajax-message.php:409
+msgid "Empty Subject field!"
+msgstr ""
+
+#: ajax-message.php:412
+msgid "Empty Submit button field!"
+msgstr ""
+
+#: ajax-message.php:415
+msgid "Empty Success message field!"
+msgstr ""
+
+#: ajax-message.php:418
+msgid "Empty Error message field!"
+msgstr ""
+
+#: ajax-message.php:422
+msgid "Settings Saved"
+msgstr ""
+
+#: ajax-message.php:449
+msgid "Shortcode or HTML or Plain Text."
+msgstr ""
+
+#: ajax-message.php:486
+msgid "Title:"
+msgstr ""
+
+#: ajax-message.php:489
+msgid "Content:"
+msgstr ""
+
+#: ajax-message.php:492
+msgid "Automatically add paragraphs"
+msgstr ""

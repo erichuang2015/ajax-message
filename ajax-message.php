@@ -48,8 +48,8 @@ function activate(){
 
 	$notices   = get_option('plugin_admin_notices', array());
     $notices = array( 
-    	'content' => 'Thank you for installing this plugin! Plugin settings are available on the page 
-    				  <a href="' . admin_url('options-general.php?page=ae_options_group'). '">Settings - Ajax Message</a>'
+    	'content' => __('Thank you for installing this plugin! Plugin settings are available on the page', 'ae') .
+    				  ' <a href="' . admin_url('options-general.php?page=ae_options_group'). '">Settings - Ajax Message</a>'
     );
     update_option('plugin_admin_notices', $notices);
 }
@@ -110,7 +110,7 @@ function this_screen(){
 		}
 		add_filter('admin_footer_text', 'left_admin_footer_text_output'); 
 		function left_admin_footer_text_output($text){
-		    $text = 'Thank you for installing this plugin! Created by <a class="created" href="http://keksus.com">Keksus</a>';
+		    $text = __('Thank you for installing this plugin! Created by', 'ae').' <a class="created" href="http://keksus.com">Keksus</a>';
 		    return $text;
 		}
     }
@@ -359,10 +359,14 @@ function options_output(){
 												   echo "?php>" ."do_shortcode('[ae_message]');" . "?>"; ?></pre>
 
 									<h2><?php _e('License:', 'ae'); ?></h2>
-										<p><?php _e( 'This theme is licensed under the <a target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL v3 license</a> This means you can use it for anything you like as long as it remains GPL v3.', 'ae' ); ?></p>
+										<p><?php _e( 'This plugin is licensed under the', 'ae' );?>
+											<a target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL v3 license</a>
+										<?php _e('This means you can use it for anything you like as long as it remains GPL v3.', 'ae' ); ?></p>
 
-									<h2><?php _e('Credits:', 'ae'); ?></h2>
-										<p><?php _e( 'This plugin was created by <a target="_blank" href="http://keksus.com/">Keksus.com</a>', 'ae' ); ?></p>
+									<h2><?php _e('Links:', 'ae'); ?></h2>
+										<p><?php _e( 'This plugin was created by', 'ae' );?>
+											<a target="_blank" href="http://keksus.com/">Keksus.com</a>
+										</p>
 										<p><?php _e( 'A back-link to our website is very much appreciated or you can follow us via our social media!', 'ae' ); ?></p>
 										<p class='links'>
 											<a target="_blank" href="https://twitter.com/keks5588" class="button button-secondary">Twitter</a>
