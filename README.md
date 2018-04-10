@@ -24,4 +24,4 @@ Also you can use this shortcode in the widget "Ajax message".
 ```
 ## Live Demo
 
-* [http://keksus.com/wordpress-plugins/ae.html](http://keksus.com/wordpress-plugins/ae.html)
+* [http://keksus.com/ae.html](http://keksus.com/ae.html)
